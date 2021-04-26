@@ -386,6 +386,7 @@ header {
 	 flex-direction: column;
 	 justify-content: space-between; 
 	 align-content: center;
+	 padding: 0px;
 	}
 	.hi_text {
 		display: flex;
@@ -393,14 +394,17 @@ header {
 		margin: 2px 30px;
 	}
 	.hi_text_1 {
-		font-size: 38px;
+		font-size: 43px;
+		text-align: center;
 	}
 
 	.hi_text_2 {
-		font-size: 26px;
+		font-size: 31px;
+		text-align: justify;
 	}
 	.hi_text_3 {
-		font-size: 22px;
+		font-size: 26px;
+		text-align: justify;
 	}
 	.hi_slider {
 		align-self: center;
@@ -457,9 +461,11 @@ header {
 
 	.hi_text_2 {
 		font-size: 40px;
+		text-align: justify;
 	}
 	.hi_text_3 {
 		font-size: 28px;
+		text-align: justify;
 	}
 	.hi_slider {
 		align-self: center;
